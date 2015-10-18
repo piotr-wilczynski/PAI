@@ -87,7 +87,38 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+html, body {
+    height: 100%;
+}
+header{
+    width: 1140px;
+    background-color: black;
+    color:white;
+    height: 10%;
+    position: relative;
+    margin: 1px;
+}
 
+footer{
+    width: 1140px;
+    background-color: yellow;
+    position: relative;
+    height: 10%;
+    margin: 1px;
+}
+section{
+    width: 33%;
+    display:inline-block;
+    background-color: red;
+    overflow: hidden;
+    display: table-cell;
+    position: relative;
+    margin: 1px;
+
+}
+body{
+    width: 1140px;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */

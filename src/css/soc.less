@@ -1,0 +1,24 @@
+@import "elements";
+@red: #FF0000;
+@w: 14px;
+@cos: 20pt;
+div{
+  color:@red;
+  width: @w*2 + 1em - 10% + cos;
+}
+header{
+
+  color: aqua;
+  nav{
+    color: green;
+  ul{
+    &:hover{
+      color:black;
+    }
+    color: white;
+    li{
+      color: black;
+    }
+  }
+  }
+}

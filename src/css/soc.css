@@ -1,0 +1,25 @@
+/*---------------------------------------------------
+    LESS Elements 0.9
+  ---------------------------------------------------
+    A set of useful LESS mixins
+    More info at: http://lesselements.com
+  ---------------------------------------------------*/
+div {
+  color: #FF0000;
+  width: 19px cos;
+}
+header {
+  color: aqua;
+}
+header nav {
+  color: green;
+}
+header nav ul {
+  color: white;
+}
+header nav ul:hover {
+  color: black;
+}
+header nav ul li {
+  color: black;
+}
