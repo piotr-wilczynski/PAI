@@ -95,26 +95,22 @@ header{
     background-color: black;
     color:white;
     height: 10%;
-    position: relative;
     margin: 1px;
 }
 
 footer{
     width: 1140px;
     background-color: yellow;
-    position: relative;
     height: 10%;
     margin: 1px;
 }
-section{
-    width: 33%;
-    display:inline-block;
+.col-md-4{
     background-color: red;
-    overflow: hidden;
-    display: table-cell;
-    position: relative;
-    margin: 1px;
-
+    height: 80%;
+}
+.col-md-4:first-of-type{
+    background-color: magenta;
+    height: 80%;
 }
 body{
     width: 1140px;
